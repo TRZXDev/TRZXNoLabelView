@@ -15,6 +15,8 @@
 		B70E99E21E65253200FA3145 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B70E99E01E65253200FA3145 /* LaunchScreen.storyboard */; };
 		B70E99ED1E65253200FA3145 /* TRZXNoLabelViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B70E99EC1E65253200FA3145 /* TRZXNoLabelViewTests.m */; };
 		B70E99F81E65253200FA3145 /* TRZXNoLabelViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B70E99F71E65253200FA3145 /* TRZXNoLabelViewUITests.m */; };
+		B70E9A091E65255700FA3145 /* NoLabelView.m in Sources */ = {isa = PBXBuildFile; fileRef = B70E9A071E65255700FA3145 /* NoLabelView.m */; };
+		B70E9A0A1E65255700FA3145 /* NoLabelView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B70E9A081E65255700FA3145 /* NoLabelView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		B70E99F31E65253200FA3145 /* TRZXNoLabelViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TRZXNoLabelViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B70E99F71E65253200FA3145 /* TRZXNoLabelViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TRZXNoLabelViewUITests.m; sourceTree = "<group>"; };
 		B70E99F91E65253200FA3145 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B70E9A061E65255700FA3145 /* NoLabelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoLabelView.h; sourceTree = "<group>"; };
+		B70E9A071E65255700FA3145 /* NoLabelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoLabelView.m; sourceTree = "<group>"; };
+		B70E9A081E65255700FA3145 /* NoLabelView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NoLabelView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +106,7 @@
 		B70E99D11E65253200FA3145 /* TRZXNoLabelView */ = {
 			isa = PBXGroup;
 			children = (
+				B70E9A051E65254800FA3145 /* TRZXNoLabelView */,
 				B70E99D51E65253200FA3145 /* AppDelegate.h */,
 				B70E99D61E65253200FA3145 /* AppDelegate.m */,
 				B70E99D81E65253200FA3145 /* ViewController.h */,
@@ -138,6 +144,16 @@
 				B70E99F91E65253200FA3145 /* Info.plist */,
 			);
 			path = TRZXNoLabelViewUITests;
+			sourceTree = "<group>";
+		};
+		B70E9A051E65254800FA3145 /* TRZXNoLabelView */ = {
+			isa = PBXGroup;
+			children = (
+				B70E9A061E65255700FA3145 /* NoLabelView.h */,
+				B70E9A071E65255700FA3145 /* NoLabelView.m */,
+				B70E9A081E65255700FA3145 /* NoLabelView.xib */,
+			);
+			path = TRZXNoLabelView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,6 +262,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B70E9A0A1E65255700FA3145 /* NoLabelView.xib in Resources */,
 				B70E99E21E65253200FA3145 /* LaunchScreen.storyboard in Resources */,
 				B70E99DF1E65253200FA3145 /* Assets.xcassets in Resources */,
 				B70E99DD1E65253200FA3145 /* Main.storyboard in Resources */,
@@ -273,6 +290,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B70E9A091E65255700FA3145 /* NoLabelView.m in Sources */,
 				B70E99DA1E65253200FA3145 /* ViewController.m in Sources */,
 				B70E99D71E65253200FA3145 /* AppDelegate.m in Sources */,
 				B70E99D41E65253200FA3145 /* main.m in Sources */,
